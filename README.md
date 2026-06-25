@@ -140,7 +140,7 @@ The registry is not upgradeable. It is not ownable. It has no privileged admin r
 
 This is important because a name registry should not depend on an upgrade key or administrative discretion. If users are expected to bond capital into the registry, the rules should be stable and inspectable.
 
-### Status
+## Status
 
 This repository is experimental.
 
