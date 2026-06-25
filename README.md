@@ -37,16 +37,20 @@ maxOracleStaleness     = 86400
 
 The pricing model is intentionally simple.
 
+```
 1 character  = $10,000 bond
 2 characters = $1,000 bond
 3 characters = $100 bond
 4+ characters = $10 bond
+```
 
 The prices are denominated in USD, but paid in ETH. Chainlink provides an ETH/USD oracle that the contract uses to calculate the required ETH amount at registration time.
 
 For example, if ETH trades at $2,500 and a normal name requires a $10 bond, the required deposit is:
 
+```
 $10 / $2,500 = 0.004 ETH
+```
 
 The contract stores the ETH amount deposited at registration time.
 
